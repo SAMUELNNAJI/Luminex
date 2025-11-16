@@ -158,8 +158,9 @@ header {
     .Exclusive {
         display: flex;
         flex-direction: row;
-        gap: 140px;
-        justify-content: space-between;
+        gap: 100px;
+        justify-content:center;
+        object-fit: cover;
     }
 
     .Exclusive div {
