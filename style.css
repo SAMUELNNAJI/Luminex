@@ -86,7 +86,7 @@ header {
     }
 
     nav {
-        display: none;
+       display: none;
     }
 
      /* nav>a:hover {
@@ -605,7 +605,68 @@ footer {
         margin: auto;
     }
 
+  header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    z-index: 9999999999;
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        border: 2px solid #143141;
+        padding: 5px 20px;
+        border-radius: 30px;
+
+    }
+
+      nav a:hover {
+        text-decoration: none;
+        color: #e1d3d3;
+        border: 2px solid #00a6ff;
+        padding: 5px 20px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
   
+
+    .logo {
+        font-size: 2rem;
+        color: #fcfcfd;
+        border: none;
+    }
+
+     .logo :hover{
+       text-decoration: none;
+        color: #e1d3d3;
+        border: none;
+        border-radius: none;
+        cursor: pointer;
+    }
+
+
+    .header-container {
+        background-color: #000000cc;
+        padding: 10px 20px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70vw;
+
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+}
 
     .hero {
         width: 100%;
